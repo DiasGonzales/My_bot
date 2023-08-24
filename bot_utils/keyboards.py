@@ -12,4 +12,4 @@ def get_category_btns():
         
     markup.add(
         types.InlineKeyboardButton("Смешанный", callback_data=f"category_all"))
-    
+    return markup
